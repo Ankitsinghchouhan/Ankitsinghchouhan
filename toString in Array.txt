@@ -1,0 +1,19 @@
+//Demonstration of inbuilt Arrays class and toString method and method overloading.
+
+import java.util.Arrays;
+public class Main
+{
+	public static void main(String[] args) {
+	    int a[]={4,2,9,8};
+	    String[]s={"joy","ram","shyam"};
+		System.out.println("Integer Array is :"+Arrays.toString(a));
+		
+		System.out.println("String Array is :"+Arrays.toString(s));
+		
+		Arrays.sort(a);
+		
+		System.out.println("Sorted Integer Array is :"+Arrays.toString(a));
+		
+		System.out.println("Sorted String Array is :"+Arrays.toString(s));
+	}
+}
